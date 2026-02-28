@@ -1,0 +1,4 @@
+If I want github to reflect my change ...
+    git add .
+    git commit -m "some text"
+    git push

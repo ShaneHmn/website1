@@ -23,7 +23,7 @@ body {
     width: 100vw;
     position: absolute;
     z-index: -1;
-    background-image: url("images/Nature.jpg");
+    background-image: url("images/Nature.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

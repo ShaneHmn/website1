@@ -29,6 +29,7 @@ body {
     flex: 0.5;
     margin: 7px;
     position: relative;
+    transition: flex 0.6s ease-in;
 }
 
 .panel .active {

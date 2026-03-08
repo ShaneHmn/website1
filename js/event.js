@@ -1,6 +1,7 @@
 const element1 = document.getElementById('element1')
 const element2 = document.getElementById('element2')
 const element3 = document.getElementById('element3')
+const element4 = document.getElementById('element4')
 
 element1.addEventListener('click', ()=>{
     element1.innerHTML = "I've been clicked! <br> Try double clicking me."
@@ -34,10 +35,20 @@ document.addEventListener('keyup', (event)=>{
         positionY = positionY - 10
     }
     else if (event.key == 'ArrowLeft') {
-        postionX = positionX - 10
+        postionX = positionX + 10
     }
     else if (event.key == 'Arrow Right') {
-        positionX = positionX + 10
+        positionX = positionX - 10
     }
     element3.style.top = `${positionY}px`
+    element3.style.right = `${positionX}px`
+})
+
+
+
+element4.addEventListener('click', ()=>{
+    element4.style.width = "10px"
+    element4.style.height = "10px"
+    element4.innerHTML = ""
+    element4.style.opacity = .3
 })

@@ -29,14 +29,13 @@ document.addEventListener('keyup', (event)=>{
     console.log(event.key)
 
     if(event.key == 'ArrowDown') {
-        console.log("Hello")
-        positionY == positionY + 10
+        positionY = positionY + 10
     }
     else if (event.key == 'ArrowUp') {
         positionY = positionY - 10
     }
     else if (event.key == 'ArrowLeft') {
-        postionX = positionX + 10
+        positionX = positionX - 10
     }
     else if (event.key == 'ArrowRight') {
         positionX = positionX - 10
@@ -65,9 +64,9 @@ document.addEventListener('keyup', (event)=>{
 })
 
 
-const list = ['running', 'paused']
-let index = 0
-element5.addEventListener('click', ()=>{
-    element5.style.animationPlayState = List[index]
-    index = (index + 1) % 2
-})
+// const list = ['running', 'paused']
+// let index = 0
+// element5.addEventListener('click', ()=>{
+//     element5.style.animationPlayState = List[index]
+//     index = (index + 1) % 2
+// })

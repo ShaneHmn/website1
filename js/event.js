@@ -29,6 +29,7 @@ document.addEventListener('keyup', (event)=>{
     console.log(event.key)
 
     if(event.key == 'ArrowDown') {
+        console.log("Hello")
         positionY == positionY + 10
     }
     else if (event.key == 'ArrowUp') {

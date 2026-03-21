@@ -109,3 +109,8 @@ body {
 .nav.active .container {
     padding: 10px 0;
 }
+
+.nav a.current, .nav a:hover {
+    color: rgb(192,57,43);
+    font-weight: bold;
+}

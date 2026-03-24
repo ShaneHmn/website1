@@ -5,8 +5,69 @@
 
 body {
     background: rgb(121,28,158);
+}
+
+h1 {
+    color: white;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box#search {
+    background: rgb(207,207,207);
+    padding: 5px;
+    width: 73px;
+    border-radius: 3px;
+    border: 2px;
+}
+
+.box#loading {
+    background: rgb(207,207,207);
+    padding: 5px;
+    width: 81px;
+    border-radius: 3px;
+}
+
+.box#expanding {
+    background: rgb(207,207,207);
+    padding: 5px;
+    width: 98px;
+    border-radius: 3px;
+}
+
+.box#event {
+    background: rgb(207,207,207);
+    padding: 5px;
+    width: 67px;
+    border-radius: 3px;
+}
+
+.box#interactive {
+    background: rgb(207,207,207);
+    padding: 5px;
+    width: 158px;
+    border-radius: 3px;
+}
+
+.box#sound {
+    background: rgb(207,207,207);
+    padding: 5px;
+    width: 70px;
+    border-radius: 3px;
+}
+
+.box#navigation {
+    background: rgb(207,207,207);
+    padding: 5px;
+    width: 100px;
+    border-radius: 3px;
+}
+
+.box#insect {
+    background: rgb(207,207,207);
+    padding: 5px;
+    width: 68px;
+    border-radius: 3px;
 }

@@ -17,14 +17,15 @@ h1 {
     font-family: "Tilt Prism", sans-serif;
     font-size: 50px;
     margin-top: 60px;
+    text-shadow: 4px 4px black;
 }
 
 .line {
-    background: white;
+    background: #d9d8d7;
     height: 3px;
     width: 500px;
-    margin-left: 705px;
-    margin-top: -350px;
+    margin-left: 429px;
+    margin-top: -250px;
     border-radius: 10px;
 }
 
@@ -34,11 +35,11 @@ h1 {
     position: center;
     align-items: center;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .box:hover {
-    box-shadow: 2px 2px white;
+    box-shadow: 1px 1px #c7a74e;
 }
 
 .box#search {

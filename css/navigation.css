@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+.back {
+    z-index: 100;
+}
+
 body {
     color: #222;
     padding-bottom: 50px;

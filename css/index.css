@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
 * {
     box-sizing: border-box;
@@ -13,61 +14,113 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Tilt Prism", sans-serif;
+    font-size: 50px;
+    margin-top: 60px;
+}
+
+.line {
+    background: white;
+    height: 3px;
+    width: 500px;
+    margin-left: 705px;
+    margin-top: -350px;
+    border-radius: 10px;
+}
+
+.screen {
+    display: flex;
+    flex-direction: row;
+    position: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.box:hover {
+    box-shadow: 2px 2px white;
 }
 
 .box#search {
-    background: rgb(207,207,207);
+    background: #dbdbdb;
     padding: 5px;
-    width: 73px;
+    width: 78px;
     border-radius: 3px;
-    border: 2px;
+    margin: 10px;
+    border: 3px solid #333333;
+}
+
+.box#search .active {
+    width: 200px;
+    transform: translateX(198px);
 }
 
 .box#loading {
-    background: rgb(207,207,207);
+    background: #dbdbdb;
     padding: 5px;
-    width: 81px;
+    width: 86px;
     border-radius: 3px;
+    margin: 10px;
+    border: 3px solid #333333;
 }
 
 .box#expanding {
-    background: rgb(207,207,207);
+    background: #dbdbdb;
     padding: 5px;
-    width: 98px;
+    width: 103px;
     border-radius: 3px;
+    margin: 10px;
+    border: 3px solid #333333;
 }
 
 .box#event {
-    background: rgb(207,207,207);
+    background: #dbdbdb;
     padding: 5px;
-    width: 67px;
+    width: 72px;
     border-radius: 3px;
+    margin: 10px;
+    border: 3px solid #333333;
 }
 
 .box#interactive {
-    background: rgb(207,207,207);
+    background: #dbdbdb;
     padding: 5px;
-    width: 158px;
+    width: 163px;
     border-radius: 3px;
+    margin: 10px;
+    border: 3px solid #333333;
 }
 
 .box#sound {
-    background: rgb(207,207,207);
+    background: #dbdbdb;
     padding: 5px;
-    width: 70px;
+    width: 75px;
     border-radius: 3px;
+    margin: 10px;
+    border: 3px solid #333333;
 }
 
 .box#navigation {
-    background: rgb(207,207,207);
+    background: #dbdbdb;
     padding: 5px;
-    width: 100px;
+    width: 105px;
     border-radius: 3px;
+    margin: 10px;
+    border: 3px solid #333333;
 }
 
 .box#insect {
-    background: rgb(207,207,207);
+    background: #dbdbdb;
     padding: 5px;
-    width: 68px;
+    width: 73px;
     border-radius: 3px;
+    margin: 10px;
+    border: 3px solid #333333;
+}
+
+.secret {
+    color: rgb(121,28,158);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }

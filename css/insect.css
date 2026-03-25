@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.back {
+    z-index: 100;
+    display: block;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+}
+
 body {
     background: #516dff;
     color: #ffffff;

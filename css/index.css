@@ -8,6 +8,10 @@ body {
     background: rgb(121,28,158);
 }
 
+a {
+    color: navy;
+}
+
 h1 {
     color: white;
     margin: 0;
@@ -21,11 +25,11 @@ h1 {
 }
 
 .line {
-    background: #d9d8d7;
-    height: 3px;
+    background: #e6e3e1;
+    height: 1.5px;
     width: 500px;
     margin-left: 429px;
-    margin-top: -250px;
+    margin-top: -160px;
     border-radius: 10px;
 }
 
@@ -35,11 +39,51 @@ h1 {
     position: center;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .box:hover {
-    box-shadow: 1px 1px #c7a74e;
+    box-shadow: 0px 1px #c7a74e;
+}
+
+.box#search:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-out;
+}
+
+.box#loading:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-out;
+}
+
+.box#expanding:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-out;
+}
+
+.box#event:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-out;
+}
+
+.box#interactive:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-out;
+}
+
+.box#sound:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-out;
+}
+
+.box#navigation:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-out;
+}
+
+.box#insect:hover {
+    transform: translateY(-3px);
+    transition: 0.3s ease-out;
 }
 
 .box#search {
@@ -47,13 +91,8 @@ h1 {
     padding: 5px;
     width: 78px;
     border-radius: 3px;
-    margin: 10px;
+    margin: 15px;
     border: 3px solid #333333;
-}
-
-.box#search .active {
-    width: 200px;
-    transform: translateX(198px);
 }
 
 .box#loading {
@@ -61,7 +100,7 @@ h1 {
     padding: 5px;
     width: 86px;
     border-radius: 3px;
-    margin: 10px;
+    margin: 15px;
     border: 3px solid #333333;
 }
 
@@ -70,7 +109,7 @@ h1 {
     padding: 5px;
     width: 103px;
     border-radius: 3px;
-    margin: 10px;
+    margin: 15px;
     border: 3px solid #333333;
 }
 
@@ -79,7 +118,7 @@ h1 {
     padding: 5px;
     width: 72px;
     border-radius: 3px;
-    margin: 10px;
+    margin: 15px;
     border: 3px solid #333333;
 }
 
@@ -88,7 +127,7 @@ h1 {
     padding: 5px;
     width: 163px;
     border-radius: 3px;
-    margin: 10px;
+    margin: 15px;
     border: 3px solid #333333;
 }
 
@@ -97,7 +136,7 @@ h1 {
     padding: 5px;
     width: 75px;
     border-radius: 3px;
-    margin: 10px;
+    margin: 15px;
     border: 3px solid #333333;
 }
 
@@ -106,7 +145,7 @@ h1 {
     padding: 5px;
     width: 105px;
     border-radius: 3px;
-    margin: 10px;
+    margin: 15px;
     border: 3px solid #333333;
 }
 
@@ -115,7 +154,7 @@ h1 {
     padding: 5px;
     width: 73px;
     border-radius: 3px;
-    margin: 10px;
+    margin: 15px;
     border: 3px solid #333333;
 }
 

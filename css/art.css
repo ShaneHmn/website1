@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: skyblue;
+    margin: 0;
+}
+
+.tower {
+    background: #c40c02;
+    top: 400px;
+    left: 250px;
+    height: 199px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+}
+
+.box {
+    background: #968b8a;
+    top: 324px;
+    left: 223px;
+    height: 50px;
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+}

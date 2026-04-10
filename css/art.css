@@ -108,6 +108,7 @@ body {
     align-items: center;
     position: absolute;
     margin: 0;
+    border-radius: 2px;
 }
 
 .pb2 {
@@ -161,6 +162,7 @@ body {
     align-items: center;
     position: absolute;
     margin: 0;
+    border-radius: 2px;
 }
 
 .pb6 {

@@ -22,7 +22,17 @@ body {
 }
 
 .tower.box1 {
-    
+    background: #5c5b59;
+    top: 340px;
+    left: 224px;
+    height: 85px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    border-radius: 2px;
 }
 
 .box {

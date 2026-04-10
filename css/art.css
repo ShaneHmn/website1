@@ -33,3 +33,17 @@ body {
     position: absolute;
     margin: 0;
 }
+
+.boxs {
+    background: #222222;
+    top: 340px;
+    left: 223px;
+    height: 12px;
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    z-index: 100;
+}

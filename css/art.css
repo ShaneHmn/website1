@@ -21,10 +21,10 @@ body {
     margin: 0;
 }
 
-.tower.box1 {
+.box1 {
     background: #5c5b59;
-    top: 340px;
-    left: 224px;
+    top: 455px;
+    left: 325px;
     height: 85px;
     width: 50px;
     display: flex;

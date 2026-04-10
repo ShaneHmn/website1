@@ -112,7 +112,17 @@ body {
 }
 
 .pb2 {
-
+    background: #c78965;
+    top: 280px;
+    left: 351px;
+    height: 51px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    border-radius: 2px;
 }
 
 .pb3 {

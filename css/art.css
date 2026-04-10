@@ -202,3 +202,29 @@ body {
     margin: 0;
     rotate: 92deg;
 }
+
+.pb9 {
+    background: black;
+    top: 260px;
+    left: 1013px;
+    height: 4px;
+    width: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+}
+
+.pb10 {
+    background: black;
+    top: 260px;
+    left: 373px;
+    height: 4px;
+    width: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+}

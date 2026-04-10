@@ -24,7 +24,7 @@ body {
 .box1 {
     background: #5c5b59;
     top: 455px;
-    left: 325px;
+    left: 375px;
     height: 90px;
     width: 60px;
     display: flex;
@@ -33,7 +33,40 @@ body {
     position: absolute;
     margin: 0;
     border-radius: 2px;
-    border: 5px #805034;
+    border: 8px #805034;
+    border-style: solid;
+}
+
+.box2 {
+    background: #5c5b59;
+    top: 455px;
+    left: 550px;
+    height: 90px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    border-radius: 2px;
+    border: 8px #805034;
+    border-style: solid;
+}
+
+.box3 {
+    background: #5c5b59;
+    top: 455px;
+    left: 980px;
+    height: 90px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    border-radius: 2px;
+    border: 8px #805034;
+    border-style: solid;
 }
 
 .box {

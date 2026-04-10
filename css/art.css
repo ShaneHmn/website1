@@ -149,3 +149,56 @@ body {
     margin: 0;
     rotate: 88deg;
 }
+
+.pb5 {
+    background: #c78965;
+    top: 250px;
+    left: 1010px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+}
+
+.pb6 {
+    background: #2e5b87;
+    top: 280px;
+    left: 1014px;
+    height: 51px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+}
+
+.pb7 {
+    background: black;
+    top: 330px;
+    left: 351px;
+    height: 10px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+}
+
+.pb8 {
+    background: #c78965;
+    top: 300px;
+    left: 348px;
+    height: 10px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 0;
+    rotate: 88deg;
+}
